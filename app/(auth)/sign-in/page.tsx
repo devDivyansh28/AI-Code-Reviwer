@@ -16,7 +16,7 @@ import {
   FieldSet,
 } from "@/components/ui/field";
 
-import { GithubSignInForm } from "@/features/auth/components/github-singin-form";
+import { GithubSignInForm } from "@/features/auth/components/github-signin-form";
 
 type signInPageProps = {
     searchParams : Promise<{callbackUrl?: string}>
